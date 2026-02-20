@@ -5,10 +5,14 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/PeintureVR.unity
+    guid: 92d15579aa309d64aa92119240450fa6
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: a19ec0c70130b364f8f762af6299d895, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4ae930bd54288ad43a989388cbe2a08b, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fa6dcf2717d302148b5cf6e9b52b9eed, type: 2}
